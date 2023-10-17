@@ -2,7 +2,7 @@
     <div class="container">
   <header>
     <!-- navbar start -->
-    
+    @include('include.navbar')
     <!-- navbar end -->
     <section class="hero">
       <div class="container">
