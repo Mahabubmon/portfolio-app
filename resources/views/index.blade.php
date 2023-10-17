@@ -34,13 +34,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="{{Route('homePage')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="{{Route('aboutPage')}}">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contect.html">Contact</a>
+            <a class="nav-link" href="{{Route('contectPage')}}">Contact</a>
           </li>
         </ul>
       </div>
